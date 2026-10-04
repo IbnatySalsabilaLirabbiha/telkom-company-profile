@@ -37,7 +37,7 @@ require 'includes/header.php';
             <span class="eyebrow">Program Studi</span>
             <h2>Contoh data dinamis dari database</h2>
         </div>
-        <div class="grid-4">
+        <div class="grid-3">
             <?php while ($program = $programResult->fetch_assoc()): ?>
                 <article class="card">
                     <span class="badge"><?= htmlspecialchars($program['jenjang']) ?></span>
