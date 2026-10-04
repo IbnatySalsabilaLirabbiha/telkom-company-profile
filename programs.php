@@ -11,7 +11,7 @@ require 'includes/header.php';
             <h1>Daftar program studi</h1>
             <p class="lead">Data pada halaman ini diambil dari tabel <code>program_studi</code>.</p>
         </div>
-        <div class="grid-3">
+        <div class="grid-4">
             <?php while ($row = $result->fetch_assoc()): ?>
                 <article class="card">
                     <span class="badge"><?= htmlspecialchars($row['jenjang']) ?></span>
