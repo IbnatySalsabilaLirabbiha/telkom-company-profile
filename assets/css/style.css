@@ -67,7 +67,6 @@ h2 { font-size: 2rem; margin-top: 0; }
 .section-soft { background: var(--soft); }
 .section-heading { margin-bottom: 28px; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 .card p { color: var(--muted); }
 .badge { display: inline-block; padding: 5px 10px; border-radius: 999px; background: #fff0f2; color: var(--primary); font-size: .85rem; font-weight: 700; }
